@@ -25,6 +25,6 @@ public class Chocolate extends Product{
 //    }
     @Override
     public String displayInfo(){
-        return String.format("%s - %s - %f - %s", brand, name, price, caloriesOffWeight);
+        return String.format("%s - %s - %f - %d", brand, name, price, caloriesOffWeight);
     }
 }
