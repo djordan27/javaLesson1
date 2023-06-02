@@ -54,7 +54,6 @@ public class Program {
 //        else
             if (chocolate != null){
             System.out.println("Вы купили:" + "\n " + chocolate.displayInfo());
-                System.out.println(chocolateResult.getCaloriesOffWeight());
         }
 
     }
